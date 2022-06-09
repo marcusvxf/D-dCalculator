@@ -1,4 +1,4 @@
-#D&d calculator 🚧   Em construção...  🚧
+# D&d calculator 🚧   Em construção...  🚧
 
 Projeto para um calculadora de encontros do rpg de mesa dungeon and dragons com intuito de estudo.
 
