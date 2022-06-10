@@ -18,7 +18,8 @@ function Search() {
     name: "",
     dif: 1,
     life: 1,
-    qtdd: 1
+    qtdd: 1,
+    exp: 0
   });
   const [nameM, setNameM] = React.useState<string>("");
   const [check, setCheck] = React.useState<boolean>(true);
@@ -57,6 +58,7 @@ function Search() {
                 <p>Vida:{element.life}</p>
                 <p>Dificuldade:{element.dif}</p>
                 <p>Quantidade:{element.qtdd}</p>
+                <p>Experiencia:{element.exp}</p>
               </div>
             );
           })}

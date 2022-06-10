@@ -9,6 +9,7 @@ type contextProvideProps = {
 export interface Monster {
   name: string;
   dif: number;
+  exp: number;
   life: number;
   qtdd: number;
 }

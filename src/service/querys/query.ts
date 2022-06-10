@@ -9,6 +9,7 @@ export const queryMonster = gql`
       name
       armor_class
       challenge_rating
+      xp
       charisma
       constitution
       hit_points

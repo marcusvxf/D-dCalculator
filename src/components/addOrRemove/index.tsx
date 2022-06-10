@@ -25,7 +25,7 @@ function AddOrRemove({ add, qtd, setQtd, stateM }: props) {
             qtd || 1,
             setQtd,
             -1,
-            stateM || { name: "da", dif: 4, life: 4, qtdd: 4 }
+            stateM || { name: "", dif: 0, life: 0, qtdd: 0, exp: 0 }
           )
         }>
         -
@@ -38,7 +38,7 @@ function AddOrRemove({ add, qtd, setQtd, stateM }: props) {
             qtd || 1,
             setQtd,
             1,
-            stateM || { name: "da", dif: 4, life: 4, qtdd: 4 }
+            stateM || { name: "", dif: 0, life: 0, qtdd: 0, exp: 0 }
           )
         }>
         +

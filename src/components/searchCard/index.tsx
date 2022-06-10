@@ -30,6 +30,7 @@ function SerchCard({ dado, setCheck }: props) {
         <div>{dado.name}</div>
         <div>{dado.life}</div>
         <div>{dado.dif}</div>
+        <div>{dado.exp}</div>
         <AddOrRemove add={add} qtd={qtd} setQtd={setQtd} />
         <button
           type="button"

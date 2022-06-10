@@ -18,6 +18,7 @@ const searchMonster = (
       setState({
         name: data.monster.name,
         dif: data.monster.challenge_rating,
+        exp: data.monster.xp,
         life: data.monster.hit_points,
         qtdd: 1
       });
@@ -55,6 +56,7 @@ const addMonsterToContext = (
         {
           name: data.monster.name,
           dif: data.monster.challenge_rating,
+          exp: data.monster.xp,
           life: data.monster.hit_points,
           qtdd: qtd || 1
         }
